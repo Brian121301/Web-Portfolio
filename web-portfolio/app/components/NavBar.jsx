@@ -32,7 +32,7 @@ const NavBar = () => {
                 <div className='text-2xl md:text-5xl font-semibold text-white'>
                     <NavLinks href={"/"} title={"BN"} />
                 </div>
-                <div className='md:hidden text-slate-300 hover:text-white'>
+                <div className='md:hidden text-slate-300 hover:text-white font-semibold text-2xl'>
                     {
                         !navBarOpen ? (
                             <button onClick={() => setnavBarOpen(true)}>

@@ -24,7 +24,7 @@ const projectsData = [
     id: 3,
     title: "Brian's Portfolio Website",
     type: "React Developer Portfolio",
-    description: "Developed a personal portfolio website with Next.js and Tailwind CSS to showcase skills and projects to employers. Features include a dynamic hero section, 'About Me' with skills and education, a project gallery linking to GitHub, and a 'Contact Me' form with Resend API for direct messaging. Hosted on AWS for scalability, the site emphasizes responsive design and web development expertise.",
+    description: "Developed a personal portfolio website with Next.js and Tailwind CSS to showcase skills and projects to employers. Features include a dynamic hero section, an 'About Me' section detailing skills and education, a project gallery linking to GitHub, and a 'Contact Me' form utilizing AWS services for direct messaging. Hosted on AWS for scalability, the site emphasizes responsive design and web development expertise.",
     image: "/images/portfolio.png",
     gitUrl: "https://github.com/Brian121301/Web-Portfolio",
   },
