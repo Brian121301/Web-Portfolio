@@ -7,7 +7,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className="flex flex-row bg-grey px-2 items-center justify-between bg-white bg-opacity-10">
+        <div className="flex flex-row bg-grey px-2 items-center justify-between text-slate-300 bg-white bg-opacity-10">
             <div className="flex-1">
                 <p>Developed by Brian Najera</p>
             </div>
