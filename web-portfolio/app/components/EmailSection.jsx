@@ -54,10 +54,10 @@ const EmailSection = () => {
                     from you!
                 </p>
                 <div className='socials flex flex-row gap-2'>
-                    <Link href={'github'}>
+                    <Link href={'https://github.com/Brian121301'}>
                         <AiFillGithub className='w-8 h-8 text-white hover:text-slate-300' />
                     </Link>
-                    <Link href={'LinkedIn'}>
+                    <Link href={'https://www.linkedin.com/in/brian-najera-923279192/'}>
                         <AiFillLinkedin className='w-8 h-8 text-white hover:text-slate-300' />
                     </Link>
                 </div>
