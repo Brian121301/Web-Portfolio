@@ -46,7 +46,7 @@ const HeroSection = () => {
                         </button>
                         <button
                             className='px-6 py-4 rounded-full w-full sm:w-fit mt-4 bg-[#FF6F61] hover:bg-slate-200 text-black'
-                            onClick={() => window.open("/resume.pdf", "_blank")}>Download CV</button>
+                            onClick={() => window.open("/Resume.pdf", "_blank")}>Download CV</button>
                     </div>
                 </motion.div>
 
