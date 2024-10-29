@@ -41,7 +41,7 @@ const ProjectsSection = () => {
 
   return (
     <section id='projects' ref={ref} className='space-y-4 pt-24'>
-          <div className='flex flex-row text-center justify-center text-6xl font-bold my-10'>
+          <div className='flex flex-row text-center justify-center text-6xl font-bold h-20'>
            <h2 className='text-slate-200'>My</h2>
            <h2 className='pl-3 bg-clip-text text-transparent bg-gradient-to-r from-[#a2d6e5] to-[#bdb8b8]'>Projects</h2> 
            
