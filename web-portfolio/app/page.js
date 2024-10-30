@@ -6,6 +6,10 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 
+export const metadata = {
+  title: "Brian Najera's Portfolio",
+  description: "Personal Portfolio",
+};
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#0c1221]">
