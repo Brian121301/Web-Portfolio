@@ -9,6 +9,9 @@ import Footer from "./components/Footer";
 export const metadata = {
   title: "Brian Najera's Portfolio",
   description: "Personal Portfolio",
+  icons: {
+    icon: "/images/favicon.png"
+  },
 };
 export default function Home() {
   return (
