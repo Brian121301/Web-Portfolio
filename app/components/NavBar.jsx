@@ -3,12 +3,16 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import NavLinks from './NavLinks'
 import MenuOverlay from './MenuOverlay'
-import { AiFillGithub } from 'react-icons/ai'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 const navLinks = [
     {
         title: "About",
         path: "#about"
+    },
+    {
+        title: "Experience",
+        path: "#experience"
     },
     {
         title: "Projects",
@@ -21,6 +25,10 @@ const navLinks = [
     {
         title: <AiFillGithub className='w-6 h-6' />,
         path: "https://github.com/Brian121301"
+    },
+    {
+        title: <AiFillLinkedin className='w-6 h-6' />,
+        path: "https://www.linkedin.com/in/brian-najera-923279192/"
     },
 ]
 const NavBar = () => {

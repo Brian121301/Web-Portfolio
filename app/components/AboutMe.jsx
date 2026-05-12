@@ -62,14 +62,15 @@ const AboutMe = () => {
   };
 
   return (
-    <section id='about' className='mt-32 pt-6'>
-      <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:16 xl:px-12 sm:py-12 h-full'>
-        <div className='h-full mr-6'>
+    <section id='about' className=''>
+      <div className='md:grid md:grid-cols-2 items-center xl:16 xl:px-12 sm:py-12 h-full'>
+        <div className=''>
           <Image
-            src="/images/sitting2.jpg"
-            width={900}
-            height={900}
-            alt="sitting picture"
+            src="/images/standing.jpg"
+            className='rounded-full'
+            width={400}
+            height={400}
+            alt="standing picture"
           />
         </div>
         <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
@@ -80,16 +81,22 @@ const AboutMe = () => {
           
           <div className='space-y-2 my-2 text-md bg-clip-text text-transparent bg-gradient-to-r from-[#a2d6e5] to-[#bdb8b8]'>
             <p>
-              Hi, I’m Brian Najera Gonzales, a dedicated Full Stack Developer with a Computer Science degree
-              from the University of North Texas.
-              My experience spans both frontend and backend development. I’ve built projects like Jules Crafting
-              Corner, an e-commerce platform focused on security and user experience, and an Incident Monitoring
-              System designed to improve law enforcement response times using real-time geofencing and AWS services.
+            Hi, I’m Brian Najera Gonzales, a Software Developer with a Computer Science degree from the University of North Texas 
+            and professional experience building and maintaining large-scale internal CRM systems.
             </p>
             <p>
-              I recently earned my AWS Cloud Practitioner certification, expanding my skills in cloud computing
-              and serverless architectures, and I’m always eager to tackle new challenges, so feel free to check out my
-              work and reach out!
+            At Paycom, I work on developing and enhancing full-stack applications used by marketing and sales teams, focusing on 
+            scalable backend systems, dynamic user interfaces, and workflow automation. My work includes building reusable APIs, 
+            optimizing database performance, and integrating systems and third party software that improve data visibility and 
+            operational efficiency across business teams.
+            </p>
+            <p>
+            I also have experience developing full-stack and cloud-based applications using technologies such as AWS, React Native, 
+            and REST APIs. Outside of work, I’ve built projects involving real-time systems, geolocation tracking, and secure 
+            application design.
+            </p>
+            <p>
+            I’m always eager to tackle new challenges, so feel free to check out my work and reach out!
             </p>
           </div>
           <div className='text-white'>

@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
+import ExperienceSection from "./components/ExperienceSection";
 
 export const metadata = {
   title: "Brian Najera's Portfolio",
@@ -20,6 +21,7 @@ export default function Home() {
     <container className="container mt-24 mx-auto px-8 py-8">
       <HeroSection />
       <AboutMe />
+      <ExperienceSection />
       <ProjectsSection />
       <EmailSection />
     </container>

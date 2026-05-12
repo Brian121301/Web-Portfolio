@@ -46,7 +46,7 @@ const HeroSection = () => {
                         </button>
                         <button
                             className='px-6 py-4 rounded-full w-full sm:w-fit mt-4 bg-[#FF6F61] hover:bg-slate-200 text-black'
-                            onClick={() => window.open("/Resume.pdf", "_blank")}>Download CV</button>
+                            onClick={() => window.open("/Brian-Najera-Resume.pdf", "_blank")}>View Resume</button>
                     </div>
                 </motion.div>
 
@@ -55,13 +55,13 @@ const HeroSection = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                     className='col-span-5 place-self-center mt-10 lg:mt-0'>
-                    <div className='rounded-full bg-[#181818] w-[400px] h-[400px] sm:[500px] sm:[500px] p-10 relative'>
+                    <div className='w-[700px] h-[700px] sm:[500px] sm:[500px] p-10 relative'>
                         <Image
-                            src="/images/cross.png"
+                            src="/images/sitting2.jpg"
                             alt="hero image"
-                            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                            width={200}
-                            height={200}
+                            className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                            width={700}
+                            height={700}
                         />
                     </div>
                 </motion.div>
