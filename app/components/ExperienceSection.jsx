@@ -21,7 +21,7 @@ const ExperienceSection = () => {
                 <b>Software Developer II</b>
               </h6>
               <h6>
-                March 2026 - Present
+                March 2025 - Present
               </h6>
               <ul className="list-disc pl-2 text-white">
                 <li>
