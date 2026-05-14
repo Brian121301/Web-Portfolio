@@ -30,6 +30,10 @@ const ExperienceSection = () => {
                   internal workflows and data visibility
                 </li>
                 <li>
+                  Integrated third-party business platforms and internal systems 
+                  to support high-volume operational reporting and activity tracking
+                </li>
+                <li>  
                   Developed dynamic UI components and RESTful backend APIs to
                   support reporting, workflow automation, and real-time data
                   management
