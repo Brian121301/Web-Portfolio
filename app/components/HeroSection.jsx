@@ -44,7 +44,7 @@ const HeroSection = () => {
                 }}
                 className="px-6 py-4 rounded-full w-full sm:w-fit mr-4 bg-[#00A8CC] hover:bg-slate-200 text-black sm:mt-0 mt-4"
               >
-                Hire Me
+                Contact Me
               </button>
               <a
                 href="/Brian-Najera-Resume.pdf"
